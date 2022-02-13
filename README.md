@@ -5,6 +5,7 @@ First off, this is a work in progress repository. Each entry has 5 bullet points
   - `Winner blog`
   - `Winner notebook/code/kernel` 
   - `Other notebook/code/kernel`
+  - `Solution thread`
   - `Take home message` (Taken directly from the authors with some modifications)
  
 The list of competitions was taken from this [reference#1](https://farid.one/kaggle-solutions/) and [reference#2](https://www.kaggle.com/sudalairajkumar/winning-solutions-of-kaggle-competitions). Generally at the end of every Kaggle competition, the winners share their solutions. The goal of this repository is to offer a quick refence guide to the what matters the most: their kernel and the take home message. Competitions where neither the code nor the approach was described were ommited.
