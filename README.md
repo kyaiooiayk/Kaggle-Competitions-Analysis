@@ -60,7 +60,7 @@ You have two options to send over your submission: 1) directly from a Kaggle ker
 ## Notebale Techniques
 - [Pesudo Labelling #1](https://www.kaggle.com/nroman/i-m-overfitting-and-i-know-it), [#2](https://www.kaggle.com/cdeotte/pseudo-labeling-qda-0-969)
 
-## #1 Forecast Eurovision Voting
+## 1 Forecast Eurovision Voting
 *This competition requires contestants to forecast the voting for this years Eurovision Song Contest in Norway on May 25th, 27th and 29th.*
   - [Competition overview](https://www.kaggle.com/c/Eurovision2010)
   - [Winner blog/article](https://medium.com/kaggle-blog/computer-scientist-jure-zbontar-on-winning-the-eurovision-challenge-8b5754fc72b4)
@@ -68,7 +68,7 @@ You have two options to send over your submission: 1) directly from a Kaggle ker
   - Other notebook/code/kernel - NA
   - Take home message: CV was paramount to avoid overfitting and provide an indication of which model would perform well on new data. It is stated that studying the voting patterns for all countries provided valuable insights.
 
-## #2 Predict HIV Progression
+## 2 Predict HIV Progression
 *This contest requires competitors to predict the likelihood that an HIV patient's infection will become less severe, given a small dataset and limited clinical information.*
   - [Competition overview](https://www.kaggle.com/c/hivprogression/overview)
   - [Winner blog/article](https://medium.com/kaggle-blog/how-i-won-the-predict-hiv-progression-data-mining-competition-fbb7b682b7ef)
@@ -76,7 +76,7 @@ You have two options to send over your submission: 1) directly from a Kaggle ker
   - Other notebook/code/kernel - NA
   - Take home message: Make sure that all areas of the dataset are randomly partitioned. In order to do machine learning correctly, it is important to have your training data closely match the test dataset. Furtherm the recursive feature elimination was mentioned as one of the factor that helped win the competition.
 
-## #3 Tourism Forecasting Part One
+## 3 Tourism Forecasting Part One
 *Part one requires competitors to predict 518 tourism-related time series. The winner of this competition will be invited to contribute a discussion paper to the International Journal of Forecasting.*
   - [Competition overview](https://medium.com/kaggle-blog/how-i-did-it-lee-baker-on-winning-tourism-forecasting-part-one-3c3c9d1efcbc)
   - [Winner blog/article](https://medium.com/kaggle-blog/how-i-did-it-lee-baker-on-winning-tourism-forecasting-part-one-3c3c9d1efcbc)
@@ -84,7 +84,7 @@ You have two options to send over your submission: 1) directly from a Kaggle ker
   - Other notebook/code/kernel - NA
   - Take home message: A weighted combination of three predictors turned out to be the best appraoch for forecasting.
 
-## #4 Tourism Forecasting Part Two
+## 4 Tourism Forecasting Part Two
 *Part two requires competitors to predict 793 tourism-related time series. The winner of this competition will be invited to contribute a discussion paper to the International Journal of Forecasting.*
   - [Competition overview](https://www.kaggle.com/c/tourism2)
   - [Winner blog/article](https://medium.com/kaggle-blog/phil-brierley-on-winning-tourism-forecasting-part-two-5aaa91b93e06)
@@ -92,7 +92,7 @@ You have two options to send over your submission: 1) directly from a Kaggle ker
   - Other notebook/code/kernel - NA
   - Take home message: The mindset was not to concentrate on the the overall accuracy, but how to prevent the worst case events. This was achieved an ensemble of algorithms.
   
-## #5 INFORMS Data Mining Contest 2010
+## 5 INFORMS Data Mining Contest 2010
 *The goal of this contest is to predict short term movements in stock prices. The winners of this contest will be honoured of the INFORMS Annual Meeting in Austin-Texas (November 7-10).*
   - [Competition overview](https://www.kaggle.com/c/informs2010/overview)
   - [Winner blog/article](https://medium.com/kaggle-blog/how-i-did-it-the-top-three-from-the-2010-informs-data-mining-contest-5267983308dd)
@@ -100,7 +100,7 @@ You have two options to send over your submission: 1) directly from a Kaggle ker
   - Other notebook/code/kernel - NA
   - Take home message: NA
 
-## #6 Chess ratings - Elo versus the Rest of the World
+## 6 Chess ratings - Elo versus the Rest of the World
 *This competition aims to discover whether other approaches can predict the outcome of chess games more accurately than the workhorse Elo rating system.*
   - [Competition overview](https://www.kaggle.com/c/chess/overview)
   - [Winner blog/article](https://arxiv.org/abs/1012.4571)
@@ -108,7 +108,7 @@ You have two options to send over your submission: 1) directly from a Kaggle ker
   - Other notebook/code/kernel - NA
   - Take home message: The winning algorithm, called Elo++, is characterised by an l2 regularization technique that avoids overfitting. This was paramount given the extremey small dataset. Overfitting is a big problem for rating systems.  The regularization takes into account the number of games per player, the recency of these games and the ratings of the opponents of each player. The intuition is that any rating system should “trust” more the ratings of players who have played a lot of recent games versus the ratings of players who have played a few old games. The extent of regularization is controlled using a single parameter, that was optimised via CV. 
  
-## #7 IJCNN Social Network Challenge
+## 7 IJCNN Social Network Challenge
 *This competition requires participants to predict edges in an online social network. The winner will receive free registration and the opportunity to present their solution at IJCNN 2011.*
   - [Competition overview](https://www.kaggle.com/c/socialNetwork/overview)
   - [Winner blog/article](https://arxiv.org/abs/1102.4374)
@@ -116,7 +116,7 @@ You have two options to send over your submission: 1) directly from a Kaggle ker
   - Other notebook/code/kernel - NA
   - Take home message: Apart from the techniality of the winning approach, the most interesting finding was that large real-world online social network graph can be effectively de-anonymised. Releasing useful social network graph data that is resilient to de-anonymisation remains an open question.
  
-## #8 R Package Recommendation Engine
+## 8 R Package Recommendation Engine
 *The aim of this competition is to develop a recommendation engine for R libraries (or packages). (R is opensource statistics software.*
   - [Competition overview](https://www.kaggle.com/c/R/overview)
   - [Winner (2nd) blog/article](https://medium.com/kaggle-blog/max-lin-on-finishing-second-in-the-r-challenge-520a7d785beb)
@@ -124,7 +124,7 @@ You have two options to send over your submission: 1) directly from a Kaggle ker
   - Other notebook/code/kernel - NA
   - Take home message: ensamble of 4 different models.
   
-## #9 RTA Freeway Travel Time Prediction
+## 9 RTA Freeway Travel Time Prediction
 *This competition requires participants to predict travel time on Sydney's M4 freeway from past travel time observations.*
   - [Competition overview](https://www.kaggle.com/c/RTA)
   - [Winner blog/article](https://1library.net/document/zp78l9rz-using-ensemble-decision-trees-forecast-travel-time.html)
@@ -392,7 +392,8 @@ You have two options to send over your submission: 1) directly from a Kaggle ker
   - [Competition overview](https://www.kaggle.com/c/amazon-employee-access-challenge)
   - [Winner blog/article](https://github.com/bensolucky/Amazon)
   - [Winner notebook/code/kernel](https://github.com/bensolucky/Amazon)
-  - [Other notebook/code/kernel](https://github.com/kaz-Anova/Competitive_Dai)
+  - [Other notebook/code/kernel] #1(https://github.com/kaz-Anova/Competitive_Dai)
+  - [Other notebook/code/kernel] #1(https://github.com/kaz-Anova/ensemble_amazon)
   - Take home message  - The general strategy was to produce 2 feature sets: one categorical to be modeled with decision tree based approaches and the second a sparse matrix of binary features, created by binarizing all categorical values and 2nd and 3rd order combinations of categorical values. The latter features could be modeled with Logistic Regressoin, SVMs, etc. The starting point of this latter set of code was provided on the forums by Miroslaw Horbal. The most critical modeification I made to it was in merging the most rarely occuring binary features into a much smaller number of features holding these rare values. 
  
 ## 42 MLSP 2013 Bird Classification Challenge
