@@ -56,9 +56,11 @@ You have two options to send over your submission: 1) directly from a Kaggle ker
   - See your submissions history: `kaggle competitions submissions house-prices-advanced-regression-techniques`
   - How to submit your file via Kaggle API: `kaggle competitions submit house-prices-advanced-regression-techniques -f submission.csv -m "Submission_No_1"`
 
-
 ## Notebale Techniques
 - [Pesudo Labelling #1](https://www.kaggle.com/nroman/i-m-overfitting-and-i-know-it), [#2](https://www.kaggle.com/cdeotte/pseudo-labeling-qda-0-969)
+
+## Useful resource
+- [heamy](https://github.com/rushter/heamy) A set of useful tools for competitive data science. Automatic caching (data preprocessing, predictions from models) Ensemble learning (stacking, blending, weighted average, etc.).
 
 ## 1 Forecast Eurovision Voting
 *This competition requires contestants to forecast the voting for this years Eurovision Song Contest in Norway on May 25th, 27th and 29th.*
@@ -232,6 +234,7 @@ You have two options to send over your submission: 1) directly from a Kaggle ker
   - [Winner blog/article](https://medium.com/kaggle-blog/meet-the-winner-of-the-algo-trading-challenge-an-interview-with-ildefons-magrans-417d6a68c271)
   - Winner notebook/code/kernel - NA
   - Other notebook/code/kernel - NA
+  - [Solution thread](https://www.kaggle.com/c/AlgorithmicTradingChallenge/discussion/1236)
   - Take home message: I tried many techniques: (SVM, LR, GBM, RF). Finally, I chose to use a random forest. The training set was a nice example of how stock market conditions are extremely volatile. Different samples of the training set could fit very different models.
 
 ## 22 The Hewlett Foundation: Automated Essay Scoring
