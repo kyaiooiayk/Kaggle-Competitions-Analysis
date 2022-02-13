@@ -392,7 +392,7 @@ You have two options to send over your submission: 1) directly from a Kaggle ker
   - [Competition overview](https://www.kaggle.com/c/amazon-employee-access-challenge)
   - [Winner blog/article](https://github.com/bensolucky/Amazon)
   - [Winner notebook/code/kernel](https://github.com/bensolucky/Amazon)
-  - Other notebook/code/kernel - NA
+  - [Other notebook/code/kernel](https://github.com/kaz-Anova/Competitive_Dai)
   - Take home message  - The general strategy was to produce 2 feature sets: one categorical to be modeled with decision tree based approaches and the second a sparse matrix of binary features, created by binarizing all categorical values and 2nd and 3rd order combinations of categorical values. The latter features could be modeled with Logistic Regressoin, SVMs, etc. The starting point of this latter set of code was provided on the forums by Miroslaw Horbal. The most critical modeification I made to it was in merging the most rarely occuring binary features into a much smaller number of features holding these rare values. 
  
 ## 42 MLSP 2013 Bird Classification Challenge
