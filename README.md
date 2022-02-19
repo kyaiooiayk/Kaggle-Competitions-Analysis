@@ -48,7 +48,7 @@ The list of competitions was taken from this [reference#1](https://farid.one/kag
 
 ## Installing Kaggle API
 - With pip: `pip install kaggle`
-- [How to resolve kaggle.json not found](https://github.com/Kaggle/kaggle-api/issues/15).  Generally you should get this file first from our homepage www.kaggle.com -> Your Account -> Create New API token. This will download a ready-to-go JSON file to place in you `[user-home]/.kaggle` folder. If there is no `.kaggle` folder yet, please create it first, however it highly likely that the folder is already there!
+- [How to resolve kaggle.json not found](https://github.com/Kaggle/kaggle-api/issues/15).  Generally you should get this file first from our homepage www.kaggle.com -> Your Account -> Create New API token. This will download a ready-to-go JSON file to place in you `[user-home]/.kaggle` folder. If there is no `.kaggle` folder yet, please create it first, however it is highly likely that the folder is already there, especially if you tried early this: `kaggle competitions download -c competition_name`.
 
 ## Kaggle API
 You have two options to send over your submission: 1) directly from a Kaggle kernel or by their API. The last one is the one I prefer. I'd like to do all the wrangling and modelling on my set up and then send my submission file directly.
