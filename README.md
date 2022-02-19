@@ -46,11 +46,14 @@ The list of competitions was taken from this [reference#1](https://farid.one/kag
 - [Laura Fink](https://www.kaggle.com/allunia)
 - [Janio Martinez Bachmann](https://www.kaggle.com/janiobachmann/code?userId=1245336&sortBy=dateRun&tab=profile)
 
+## Installing Kaggle API
+- With pip: `pip install kaggle`
+- [How to resolve kaggle.json not found](https://github.com/Kaggle/kaggle-api/issues/15).  Generally you should get this file first from our homepage www.kaggle.com -> Your Account -> Create New API token. This will download a ready-to-go JSON file to place in you `[user-home]/.kaggle` folder. If there is no `.kaggle` folder yet, please create it first, however it highly likely that the folder is already there!
+
 ## Kaggle API
 You have two options to send over your submission: 1) directly from a Kaggle kernel or by their API. The last one is the one I prefer. I'd like to do all the wrangling and modelling on my set up and then send my submission file directly.
 - [How to submit from kaggle kernel](https://www.kaggle.com/dansbecker/submitting-from-a-kernel)
 - [Kaggle API wiki](https://github.com/Kaggle/kaggle-api)
-- [How to resolve kaggle.json not found](https://github.com/Kaggle/kaggle-api/issues/15)
 - Step-by-step manual submission to Kaggle:
   - How to downlaod the sets? `kaggle competitions download -c house-prices-advanced-regression-techniques`
   - Where do I get the exact name of the competition? Check the URL like this: `https://www.kaggle.com/c/house-prices-advanced-regression-techniques/submissions`
