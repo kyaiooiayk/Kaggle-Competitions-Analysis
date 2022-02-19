@@ -31,6 +31,7 @@ The list of competitions was taken from this [reference#1](https://farid.one/kag
 - [Competing in a data science contest without reading the data](https://blog.mrtz.org/2015/03/09/competition.html)
 - [Model Selection Tips From Competitive Machine Learning](https://machinelearningmastery.com/model-selection-tips-from-competitive-machine-learning/)
 - [How to kick ass in competitive machine learning](https://machinelearningmastery.com/how-to-kick-ass-in-competitive-machine-learning/)
+- [How to Select Your Final Models in a Kaggle Competition](http://www.chioka.in/how-to-select-your-final-models-in-a-kaggle-competitio/)
 
 ## Kaggle Grandmasters
 - [Bo](https://www.kaggle.com/boliu0) | [GitHub](https://github.com/boliu61)
