@@ -8,7 +8,7 @@ First off, this is a work in progress repository. Each entry has 5 bullet points
   - `Solution thread`
   - `Take home message` (Taken directly from the authors with some modifications)
  
-The list of competitions was taken from this [reference#1](https://farid.one/kaggle-solutions/) and [reference#2](https://www.kaggle.com/sudalairajkumar/winning-solutions-of-kaggle-competitions). Generally at the end of every Kaggle competition, the winners share their solutions. The goal of this repository is to offer a quick refence guide to the what matters the most: their kernel and the take home message. Competitions where neither the code nor the approach was described were ommited.
+The list of competitions was taken from this [reference#1](https://farid.one/kaggle-solutions/) and [reference#2](https://www.kaggle.com/sudalairajkumar/winning-solutions-of-kaggle-competitions). Generally at the end of every Kaggle competition, the winners share their solutions. The goal of this repository is to offer a quick refence guide to what matters the most: their kernel and the take home message. Competitions where neither the code nor the approach was described were ommited.
 
 ## A very short intro on Kaggle competition via bullet points
 - Competitions on Kaggle are classified into different types according to their reward: Knowledge, Jobs, money. Knowledge competitions are meant for beginners who are looking to get started. These are a good fit for a beginner, because you can find a lot of articles and sample solutions explaining how to get a good score.
