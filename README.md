@@ -218,7 +218,7 @@ You have two options to send over your submission: 1) directly from a Kaggle ker
   - Take home message: My best result was a mix of random forest, GBM, and two forms of logistic regression. I put the raw data into a database and built many derived variables. It’s probably not worth it to spend too much time on external data, as chances are any especially useful data are already included. Time can be better spent on algorithms and included variables. 
   
  ## 19 Give Me Some Credit
-*Improve on the state of the art in credit scoring by predicting the probability that somebody will experience financial distress in the next two years. *
+*Improve on the state of the art in credit scoring by predicting the probability that somebody will experience financial distress in the next two years.*
   - [Competition overview](https://www.kaggle.com/c/GiveMeSomeCredit)
   - [Winner blog/article](https://medium.com/kaggle-blog/the-perfect-storm-meet-the-winners-of-give-me-some-credit-97bcb4192f33)
   - Winner notebook/code/kernel - NA
@@ -226,7 +226,7 @@ You have two options to send over your submission: 1) directly from a Kaggle ker
   - Take home message: We tried many different supervised learning methods, but we decided to keep our ensemble to only those things that we knew would improve our score through cross-validation evaluations. In the end we only used five supervised learning methods: a random forest of classification trees, a random forest of regression trees, a classification tree boosting algorithm, a regression tree boosting algorithm, and a neural network. This competition had a fairly simple data set and relatively few features which meant that the barrier to entry was low, competition would be very intense and everyone would eventually arrive at similar results and methods. Thus, I would have to work extra hard and be really innovative in my approach to solving this problem. I was surprised at how well neural networks performed. They certainly gave a good improvement over and above more modern approaches based on bagging and boosting. I have tried neural networks in other competitions where they did not perform as well.
   
  ## 20 Don't Get Kicked!
-*Predict if a car purchased at auction is a lemon*
+*Predict if a car purchased at auction is a lemon.*
   - [Competition overview](https://www.kaggle.com/c/DontGetKicked)
   - [Winner (2nd) blog/article](https://medium.com/kaggle-blog/vladimir-nikulin-on-taking-2nd-prize-in-dont-get-kicked-79aafb91f9b8)
   - Winner notebook/code/kernel - NA
@@ -234,7 +234,7 @@ You have two options to send over your submission: 1) directly from a Kaggle ker
   - Take home message: On the pre-processing: it was necessary to transfer textual values to the numerical format. I used Perl to do that task. Also, I created secondary synthetic variables by comparing different Prices/Costs. On the supervised learning methods: Neural Nets (CLOP, Matlab) and GBM in R. No other classifiers were user in order to produce my best result. Note that the NNs were used only for the calculation of the weighting coefficient in the blending model. Blending itself was conducted not around the different classifiers, but around the different training datasets with the same classifier. I derived this idea during last few days of the Contest, and it produced very good improvement (in both public and private).
 
  ## 21 Algorithmic Trading Challenge
-*Develop new models to accurately predict the market response to large trades.
+*Develop new models to accurately predict the market response to large trades.*
   - [Competition overview](https://www.kaggle.com/c/AlgorithmicTradingChallenge)
   - [Winner blog/article](https://medium.com/kaggle-blog/meet-the-winner-of-the-algo-trading-challenge-an-interview-with-ildefons-magrans-417d6a68c271)
   - Winner notebook/code/kernel - NA
